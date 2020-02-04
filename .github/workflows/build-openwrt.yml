@@ -8,7 +8,7 @@
 
 name: Build OpenWrt
 
-on:
+on:push
   release:
     types: [published]
   push:
